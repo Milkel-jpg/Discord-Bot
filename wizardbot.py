@@ -16,7 +16,8 @@ def run_bot():
     client = commands.Bot(command_prefix='!', intents = intents)
 
     # \\START MUSIC BOT
-    
+    # WARNING THIS MUSIC BOT CODE IS NOT SET UP PROPERLY, IT'S MISSING A LOT OF ERROR HANDLING AND WILL CRASH FREQUENTLY.
+
     queues = {}
     voice_clients = {}
     youtube_base_url = 'https://www.youtube.com/'
@@ -70,7 +71,7 @@ def run_bot():
             if ctx.guild.id not in queues:
                 queues[ctx.guild.id] = []
             queues[ctx.guild.id].append(link)
-            await ctx.send("Added to the list of shit to play")
+            await ctx.send("Added to the list of stuff to play")
             print(e)
 
     @client.command(name="clear")
@@ -122,7 +123,7 @@ def run_bot():
     
     # \\START HOF BOT
     
-    path = './'
+    # path = './'
 
     database = "hofmsg.json"
 
@@ -194,7 +195,7 @@ def run_bot():
     @client.command(name="seteventrole")
     async def eventset(ctx):
         react_channel_id = client.get_channel(1121928444255666287)
-        react_msg = await react_channel_id.send(f"If you're seeing this mikel has sadly brought me back alive prepare for some autism and ramblings about me (he has no fucking clue what hes doing)")
+        react_msg = await react_channel_id.send(f"Please react to this message to get the 'event' role.")
         await react_msg.add_reaction('✅') 
 
     client.run(TOKEN)
