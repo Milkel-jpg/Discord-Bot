@@ -1,7 +1,8 @@
 # Discord-Bot
-I created this bot intially to play around with Discord.py and to better understand Python in a more interesting way, this has been a part time project since 2024 and has since become something that I'm quite proud of.
+I created this bot to be included in a discord server I spoke frequently in, this bot stores messages in json which is intentional since it's such a small scale project data persistence can remain temporary and stored locally. This project has been on-going off and on since 2024 and it's gone under many iterations.
 
-This bot was written by solely me, I did not use AI in any part of the creation process for this bot and I do not intend to in the future.
+# TL;DR 
+I created this bot to experiment with Discord.py, python async and API integrations. It tracks messages, stores them locally based off users reactions and also has media-playback via yt-dlp.
 
 # What does this bot do?
 This bot currently:
