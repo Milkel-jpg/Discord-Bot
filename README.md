@@ -2,7 +2,7 @@
 I created this bot to be included in a discord server I spoke frequently in, this bot stores messages in json which is intentional since it's such a small scale project data persistence can remain temporary and stored locally. This project has been on-going off and on since 2024 and it's gone under many iterations.
 
 # TL;DR 
-I created this bot to experiment with Discord.py, python async and API integrations. It tracks messages, stores them locally based off users reactions and also has media-playback via yt-dlp.
+I created this bot to experiment with Discord.py, Python async and API integrations. It tracks messages, stores them locally based off users reactions and also includes media-playback via yt-dlp (no longer in project code right now).
 
 # What does this bot do?
 This bot currently:
