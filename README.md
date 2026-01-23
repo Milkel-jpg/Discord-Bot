@@ -7,6 +7,7 @@ I created this bot to experiment with Discord.py, Python async and API integrati
 # What does this bot do?
 This bot currently:
 - Tracks user messages and stores/pulls them from a local json database.
+- Handles a variety of user commands.
 - Manages API calls.
 - Searches, downloads and plays music from YouTube upon user request.
 
