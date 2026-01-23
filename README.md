@@ -19,7 +19,8 @@ I've learnt a great deal about Python, and creating bots for Discord. I'd say th
 
 # Is this project complete?
 Nope, the project is far from completion, it's a slow burner but I intend on adding more features such as:
-- Cleaner and more readable code.
+- Cleaner and more readable code. - COMPLETE
 - Automated content moderation & user punishment.
-- Fixing present issues, mainly with the YouTube player part of the bot.
+- Fixing present issues, mainly with the YouTube player part of the bot. - POSTPONED
+- Fix json storage, too many failures right now. - COMPLETE
 - And more, if I can think of anything.
