@@ -12,8 +12,8 @@ This bot currently:
 
 # What have I learnt from this project?
 I've learnt a great deal about Python, and creating bots for Discord. I'd say the important things are:
-- Basics about APIs.
-- Importing libraries.
+- Basics about APIs, specifically Discord API.
+- Safe data persistence using JSON and pathlib.
 - Handle user input and responding with the expected output.
 - Error handling in Python.
 
